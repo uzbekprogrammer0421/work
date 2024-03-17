@@ -1,0 +1,37 @@
+header {
+    display: flex;
+    justify-content: right;
+    text-align: center;
+    padding: 27px 450px 0px 0px;
+    ul {
+        display: flex;
+        gap: 33px;
+
+        a {
+            font-family: "Heebo";
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 29px;
+            letter-spacing: 0px;
+            text-align: right;
+            color: rgba(0, 0, 0, 1);
+        }
+        #primary {
+            color: rgba(255, 100, 100, 1);
+        }
+    }
+    .burger_menu {
+        display: none;
+    }
+}
+@media (max-width: 1200px) {
+    header {
+        padding: 27px 30px 0px 0px;
+        ul {
+            display: none;
+        }
+        .burger_menu {
+            display: flex;
+        }
+    }
+}

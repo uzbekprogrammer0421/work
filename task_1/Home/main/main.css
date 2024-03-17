@@ -1,0 +1,246 @@
+.main_items .main_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+
+.main_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  height: 100%;
+  background-color: #edf7fa;
+  padding-bottom: 30px;
+}
+
+.main_box h4 {
+  font-family: "Heebo";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.main_box .main_btn {
+  font-family: "Heebo";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 365px;
+  color: #00a8cc;
+  padding: 18px 0px;
+  border: none;
+  background-color: #edf7fa;
+}
+
+.main_box .main_items {
+  max-width: 420px;
+  height: 300px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.main_box .main_items h2 {
+  font-family: "Heebo";
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.main_box .main_items span {
+  font-family: "Heebo";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.main_box .main_items p {
+  font-family: "Heebo";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  max-width: 368px;
+  padding-top: 20px;
+}
+
+@media (max-width: 1000px) {
+  .main_box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main_box h4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main_box .main_btn {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .main_box h4 {
+    font-family: "Heebo";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .main_box .main_items h2 {
+    font-family: "Heebo";
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .main_box .main_items span {
+    font-family: "Heebo";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .main_box .main_items p {
+    font-family: "Heebo";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    max-width: 314px;
+  }
+}
+
+.wrapper {
+  padding-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  padding-bottom: 10px;
+}
+
+.wrapper .wrapper_img {
+  max-width: 250px;
+  height: 180px;
+}
+
+.wrapper .wrapper_img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+}
+
+.wrapper .wrapper_text h2 {
+  font-family: "Heebo";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.wrapper .wrapper_text p {
+  font-family: "Heebo";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  max-width: 590px;
+}
+
+.main_wrapper h4 {
+  font-family: "Heebo";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding-top: 10px;
+}
+
+.wrapper_text .wrapper_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 0px;
+  gap: 20px;
+}
+
+.wrapper_text .wrapper_box .sana {
+  width: 65px;
+  height: 10px;
+}
+
+.wrapper_text .wrapper_box .sana h3 {
+  font-family: Heebo;
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #fff;
+  background: #142850;
+  border-radius: 50px;
+}
+
+.wrapper_text .wrapper_box span {
+  font-family: "Heebo";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #8695a4;
+}
+
+@media (max-width: 900px) {
+  .main_wrapper h4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=main.css.map */

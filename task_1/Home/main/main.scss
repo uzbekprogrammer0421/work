@@ -1,0 +1,233 @@
+.main_items {
+    .main_1 {
+        display: flex;
+        gap: 30px;
+    }
+}
+
+.main_box {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(237, 247, 250, 1);
+    padding-bottom: 30px;
+
+    h4 {
+        font-family: "Heebo";
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 60px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+
+    .main_btn {
+        font-family: "Heebo";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0px;
+        display: flex;
+        margin-left: 365px;
+        color: rgba(0, 168, 204, 1);
+        padding: 18px 0px;
+        border: none;
+        background-color: rgba(237, 247, 250, 1);
+    }
+
+    .main_items {
+        max-width: 420px;
+        height: 300px;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 4px;
+
+        h2 {
+            font-family: "Heebo";
+            font-size: 26px;
+            font-weight: 700;
+            line-height: 38px;
+            letter-spacing: 0px;
+            text-align: left;
+            padding-bottom: 20px;
+        }
+
+        span {
+            font-family: "Heebo";
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 26px;
+            letter-spacing: 0px;
+            text-align: left;
+        }
+
+        p {
+            font-family: "Heebo";
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0px;
+            text-align: left;
+            max-width: 368px;
+            padding-top: 20px;
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .main_box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h4 {
+            display: flex;
+            justify-content: center;
+        }
+
+        .main_btn {
+            display: none;
+        }
+    }
+
+}
+
+@media (max-width: 500px) {
+    .main_box {
+        h4 {
+            font-family: "Heebo";
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 60px;
+            letter-spacing: 0px;
+            text-align: left;
+
+        }
+
+        .main_items {
+
+            h2 {
+                font-family: "Heebo";
+                font-size: 22px;
+                font-weight: 700;
+                line-height: 30px;
+                letter-spacing: 0px;
+                text-align: left;
+
+            }
+
+            span {
+                font-family: "Heebo";
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: 0px;
+                text-align: left;
+
+            }
+
+            p {
+                font-family: "Heebo";
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: 0px;
+                text-align: left;
+                max-width: 314px;
+            }
+        }
+    }
+}
+
+.wrapper {
+    padding-top: 15px;
+    display: flex;
+    gap: 20px;
+    padding-bottom: 10px;
+    .wrapper_img {
+        max-width: 250px;
+        height: 180px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            border-radius: 6px;
+        }
+    }
+
+    .wrapper_text {
+        h2 {
+            font-family: "Heebo";
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 44px;
+            letter-spacing: 0px;
+            text-align: left;
+        }
+
+        p {
+            font-family: "Heebo";
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0px;
+            text-align: left;
+            max-width: 590px;
+        }
+    }
+}
+
+.main_wrapper {
+    h4 {
+        font-family: "Heebo";
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 60px;
+        letter-spacing: 0px;
+        text-align: left;
+        padding-top: 10px;
+    }
+}
+.wrapper_text {
+    .wrapper_box {
+        display: flex;
+        padding: 20px 0px;
+        gap: 20px;
+        .sana {
+            width: 65px;
+            height: 10px;
+            h3 {
+                font-family: Heebo;
+font-size: 18px;
+font-weight: 900;
+letter-spacing: 0px;
+text-align: center;
+color: #fff;
+background: rgba(20, 40, 80, 1);
+border-radius: 50px;
+            }
+        }
+        span {
+            font-family: "Heebo";
+font-size: 20px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0px;
+text-align: left;
+color: rgba(134, 149, 164, 1);
+        }
+    }
+}
+@media (max-width: 900px) {
+    .main_wrapper {
+        h4 {
+            display: flex;
+            justify-content: center;
+        }
+    }
+    .wrapper {
+    display: flex;
+    flex-direction: column;
+    }
+}

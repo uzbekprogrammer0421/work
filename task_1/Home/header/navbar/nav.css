@@ -1,0 +1,43 @@
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  text-align: center;
+  padding: 27px 300px 0px 0px;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 33px;
+}
+
+nav ul a {
+  font-family: "Heebo";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0px;
+  text-align: right;
+  color: black;
+}
+
+nav .burger_menu {
+  display: none;
+}
+
+@media (max-width: 500px) {
+  nav ul {
+    display: none;
+  }
+  nav .burger_menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+/*# sourceMappingURL=nav.css.map */

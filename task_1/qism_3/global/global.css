@@ -1,0 +1,31 @@
+@import url(../header/header.css);
+@import url(../main/main.css);
+@import url(../footer/footer.css);
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  padding-left: 235px;
+  padding-right: 235px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+/*# sourceMappingURL=global.css.map */
